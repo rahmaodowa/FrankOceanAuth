@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <title>Frank Ocean</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="page-header text-center">
+        <h1> Frank Ocean & Chill. </h1>
+        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+        <img src="https://64.media.tumblr.com/ea066359c4a7823472f49798ad2b8733/tumblr_pf87wuYK2J1qcjwyv_500.jpg" alt="Frankie ocean">
+
+    </div>
+
+    <div class="row">
+
+      <section id="container">
+        <button id="btn">Shuffle!</button>
+        <section id="output">Shuffled Frank Ocean Songs</section>
+
+
+        <div class="col-sm-6">
+          <a href="/profile" class="btn btn-default btn-sm">Back </a>
+
+          <h3>Saved Songs</h3>
+          <ul class="">
+          <% for(var i=0; i<songs.length; i++) {%>
+            <li class="">
+              <span><%= songs[i].name %></span><span>: by</span>
+            <span><%= songs[i].artist %></span>
+            <span><%= songs[i].thumbUp %></span>
+
+
+              <span><i class="fa fa-heart" aria-hidden="true"></i></span>
+              <span><i class="fa fa-trash" aria-hidden="true"></i></span>
+
+            </li>
+          <% } %>
+          </ul>
+
+        </div>
+
+
+
+        <!-- LOCAL INFORMATION -->
+
+        </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<script src="bookmark.js"></script>
+
+</body>
+</html>

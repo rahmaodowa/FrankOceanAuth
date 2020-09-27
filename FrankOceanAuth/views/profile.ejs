@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <title>Frank Ocean</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <img src="https://i.imgur.com/pyJsiOu.png" alt="Frankie ocean">
+
+    <div class="page-header text-center">
+      <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+        <div class="col-sm-6">
+                  <h3>Message board</h3>
+                  <ul class="messages">
+                  <% for(var i=0; i<messages.length; i++) {%>
+                    <li class="message">
+                      <span><%= messages[i].name %></span>
+                      <span><%= messages[i].msg %></span>
+                      <span><%= messages[i].thumbUp %></span>
+                      <span><i class="fa fa-heart" aria-hidden="true"></i></span>
+                      <span><i class="fa fa-trash" aria-hidden="true"></i></span>
+                    </li>
+                  <% } %>
+                  </ul>
+                  <h2>Add a message</h2>
+                <% if (user.local.email) { %>
+                  <form action="/messages" method="POST">
+                    <input type="text" value="<%= user.local.email %>" name="name">
+                    <input type="text" placeholder="message" name="msg">
+                    <button type="submit">Submit</button>
+                  </form>
+                </div>
+                <% } %>
+              </div>
+
+              <div class="row">
+
+                <section id="container">
+                  <section id="output">Shuffled Frank Ocean Songs</section>
+
+                  <button id="btn">Shuffle!</button>
+
+                  <div class="input">
+                    <h4>Search Frank Oceans Song below and then bookmark them </h4>
+                    <input id="songName" type="text" name="" placeholder="Search Lyrics" value="">
+                    <button type="button" name="button" id="search">Search Lyrics</button><br>
+                    <a href="/bookmark" class="btn btn-default btn-sm">Saved Songs</a>
+                  </div>
+
+                    <div id="showLyrics"></div>
+
+                  </div>
+
+
+        </div>
+        <!-- <img src="https://64.media.tumblr.com/ea066359c4a7823472f49798ad2b8733/tumblr_pf87wuYK2J1qcjwyv_500.jpg" alt="Frankie ocean"> -->
+
+
+
+
+        <!-- LOCAL INFORMATION -->
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+<script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  background-color: orange;
+  font-family: 'Montserrat', sans-serif;
+}
+img{
+  height: 500px;
+margin-right:50rem;
+}
+
+iframe{
+  margin-left: 14;
+}
+
+#container{
+  text-align:center;
+  border: 5px
+  padding: 1rem;
+  background-color: teal;
+  border-radius: 6px;
+  padding:5rem;
+  width: 50rem;
+  margin-left: 60%;
+  margin-top: 3rem;
+}
+
+.container{
+  margin-right: 15rem;
+}
+
+.one{
+  margin-left:50rem;
+}
+.btn-default {
+  padding: 1rem;
+  background-color: white;
+  border-radius:10px;
+}
+
+h1{
+margin-left: 30%;
+}
+
+.col-sm-6{
+  flex-direction: column;
+align-items: center;
+border: 5px
+padding: 1rem;
+background-color: teal;
+border-radius: 10px;
+padding:5rem;
+width: 50rem;
+color:black;
+margin-top: 6rem;
+}
+
+.img1{
+  margin-left: 10rem;
+}
+
+
+
+.wrapper{
+background-color: rgba(255, 255, 255, 0.6);
+width: 260px;
+border-radius: 5px;
+padding: 8px;
+}
+
+#bookmarkSong{
+  width: 190px;
+  height: 50px;
+}
