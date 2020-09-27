@@ -12,7 +12,7 @@ how to connect to an external server
 the use of the Express package within the npm
 debugging
 creating and modifying Embedded Javascript Templates
-Link: frankocean-d26a1a.netlify.app
+
 
 
 Installation
