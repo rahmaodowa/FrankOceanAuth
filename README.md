@@ -1,5 +1,5 @@
 # FrankOceanAuth
-![ screenshot of application](FOcean.png)
+![ screenshot of application](img/FOcean.png)
 
 How It's Made:
 HTML, CSS, Javascript, EJS, node.JS MongoDB
